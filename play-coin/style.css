@@ -1,0 +1,37 @@
+html {
+	font-size: 20px;
+}
+body {
+	display: block;
+	padding: 130px 10px;
+}
+
+.coin_game {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to left, rgb(203, 176, 230), rgb(243, 243, 171));
+	padding: 55px;
+}
+
+.message {
+	font-size: 25px;
+	color: rgb(43, 3, 82);
+	letter-spacing: 1px;
+	padding-right: 35px;
+}
+
+.btn {
+	font-size: 25px;
+
+	color: rgb(243, 243, 171);
+	background-color: rgb(43, 3, 82);
+	border: 1px solid rgb(43, 3, 82);
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.btn:hover {
+	color: rgb(43, 3, 82);
+	background-color: rgb(243, 243, 171);
+}
